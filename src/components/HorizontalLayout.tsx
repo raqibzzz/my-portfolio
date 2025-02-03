@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import PorscheOutline from '../components/svg/PorscheOutline';
+import AnimatedCharacter from '../components/svg/AnimatedCharacter';
 
 const projects = [
   {
@@ -28,14 +28,13 @@ const projects = [
 const HorizontalLayout: React.FC = () => {
   const [scrollPosition, setScrollPosition] = useState<number>(0);
 
-
   useEffect(() => {
     const handleWheel = (e: WheelEvent) => {
       e.preventDefault();
       
       const container = document.getElementById('horizontal-container');
       if (container) {
-        container.scrollLeft += e.deltaY;
+        container.scrollLeft += e.deltaY * 50;
         setScrollPosition(container.scrollLeft);
       }
     };
@@ -61,39 +60,40 @@ const HorizontalLayout: React.FC = () => {
       >
         {/* Hero Section */}
         <div className="inline-block w-screen h-full align-top px-8 relative">
-          {/* Background Car SVG */}
-          <div className="absolute inset-0 flex items-center justify-center opacity-5">
+          <div className="relative z-10 flex items-center justify-between h-full max-w-7xl mx-auto">
+            {/* Text Content */}
+            <div className="flex-1">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                className="space-y-4"
+              >
+                <div className="text-neutral-100 text-8xl font-bold tracking-tighter leading-none">
+                  RAQIB
+                </div>
+                <div className="text-green-800 text-8xl font-bold tracking-tighter leading-none">
+                  MUKTADIR
+                </div>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.5, duration: 0.8 }}
+                  className="mt-8 text-neutral-400"
+                >
+                  Software Developer and Design Enthusiast
+                </motion.div>
+              </motion.div>
+            </div>
+
+            {/* Animated Character */}
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1.5 }}
-              className="w-[1200px] h-[800px] text-white"
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="flex-1 h-[500px] max-w-[500px]"
             >
-                <PorscheOutline />
-            </motion.div>
-          </div>
-          {/* Text Content */}
-          <div className="relative z-10 flex flex-col justify-center h-full max-w-7xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="space-y-4"
-            >
-              <div className="text-neutral-100 text-8xl font-bold tracking-tighter leading-none">
-                RAQIB
-              </div>
-              <div className="text-green-800 text-8xl font-bold tracking-tighter leading-none">
-                MUKTADIR
-              </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5, duration: 0.8 }}
-              className="mt-8 text-neutral-400"
-            >
-              Software Developer and Design Enthusiast
+              <AnimatedCharacter />
             </motion.div>
           </div>
         </div>
@@ -101,7 +101,7 @@ const HorizontalLayout: React.FC = () => {
         {/* Projects Section */}
         <div className="inline-block w-screen h-full align-top px-8 bg-neutral-900">
           <div className="flex flex-col items-center justify-center h-full space-y-10">
-            <h2 className="text-6xl text-neutral-100">Projects</h2>
+            <h2 className="text-green-800 text-8xl font-bold tracking-tighter leading-none">Projects</h2>
             <div className="flex space-x-8 overflow-x-auto p-4">
               {projects.map((project, index) => (
                 <motion.div
@@ -118,7 +118,7 @@ const HorizontalLayout: React.FC = () => {
                       <span key={i} className="bg-neutral-700 text-neutral-300 px-2 py-1 rounded text-xs">{tech}</span>
                     ))}
                   </div>
-                  <a href={project.link} className="text-amber-400 mt-4 text-sm" target="_blank" rel="noopener noreferrer">
+                  <a href={project.link} className="text-green-800 mt-4 text-sm" target="_blank" rel="noopener noreferrer">
                     View Project ↗
                   </a>
                 </motion.div>
@@ -126,7 +126,6 @@ const HorizontalLayout: React.FC = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
