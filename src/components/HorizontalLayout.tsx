@@ -37,7 +37,7 @@ const Portfolio = () => {
     <>
       {/* Font imports */}
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains_Mono:wght@300;400;500;700&display=swap');
       `}</style>
 
       <div className="min-h-screen bg-black text-gray-100 font-['JetBrains_Mono']">
@@ -66,7 +66,7 @@ const Portfolio = () => {
         {/* About Section */}
         <section className="py-20 bg-black">
           <div className="max-w-4xl mx-auto px-4">
-            <div className="text-green-500 text-sm">// About me</div>
+            <div className="text-green-500 text-sm">{/* About me */}</div>
             <h2 className="text-4xl font-bold mb-8">README.md</h2>
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="md:w-1/3">
@@ -90,71 +90,70 @@ const Portfolio = () => {
           </div>
         </section>
 
-        {/* What I've Been Up To Section */}
-        {/* What I've Been Up To Section */}
-<section className="py-20 bg-black">
-  <div className="max-w-6xl mx-auto px-4">
-    <div className="text-green-500 text-sm">// Latest projects</div>
-    <h2 className="text-4xl font-bold mb-12">Projects[]</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {/* Project Cards */}
-      <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 hover:scale-110 transition-transform duration-200">
-        <Image
-          src="/musicAI.jpg"
-          alt="Project 1"
-          width={500}
-          height={300}
-          className="w-full h-48 object-cover"
-        />
-        <div className="p-6">
-          <h3 className="text-xl font-bold mb-2">Spotify Music Discovery AI</h3>
-          <p className="text-gray-300 font-light">Created a music discovery AI chatbot using Next.js that allows you to discover
-          music according to your mood, with the help of OpenAI and Spotify API integrations to process user data in real time.
-          </p>
-        </div>
-      </div>
-      
-      {/* Second Project Card */}
-      <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 hover:scale-110 transition-transform duration-200">
-        <Image
-          src="/sqaRMS.jpg"
-          alt="Project 1"
-          width={500}
-          height={300}
-          className="w-full h-48 object-cover"
-        />
-        <div className="p-6">
-          <h3 className="text-xl font-bold mb-2">SQA Orders Database</h3>
-          <p className="text-gray-300 font-light">Developed a web-based inventory management system for internal use,
-          integrating SQL databases and PHP, which improved efficiency by 15%
-          </p>
-        </div>
-      </div>
+        {/* Projects Section */}
+        <section className="py-20 bg-black">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="text-green-500 text-sm">{/* Latest projects */}</div>
+            <h2 className="text-4xl font-bold mb-12">Projects[]</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Project Cards */}
+              <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 hover:scale-110 transition-transform duration-200">
+                <Image
+                  src="/musicAI.jpg"
+                  alt="Music AI Project"
+                  width={500}
+                  height={300}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-2">Spotify Music Discovery AI</h3>
+                  <p className="text-gray-300 font-light">Created a music discovery AI chatbot using Next.js that allows you to discover
+                  music according to your mood, with the help of OpenAI and Spotify API integrations to process user data in real time.
+                  </p>
+                </div>
+              </div>
+              
+              {/* Second Project Card */}
+              <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 hover:scale-110 transition-transform duration-200">
+                <Image
+                  src="/sqaRMS.jpg"
+                  alt="SQA RMS Project"
+                  width={500}
+                  height={300}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-2">SQA Orders Database</h3>
+                  <p className="text-gray-300 font-light">Developed a web-based inventory management system for internal use,
+                  integrating SQL databases and PHP, which improved efficiency by 15%
+                  </p>
+                </div>
+              </div>
 
-      {/* Third Project Card */}
-      <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 hover:scale-110 transition-transform duration-200">
-        <Image
-          src="/PlateSpot.jpg"
-          alt="Project 1"
-          width={500}
-          height={300}
-          className="w-full h-48 object-cover"
-        />
-        <div className="p-6">
-          <h3 className="text-xl font-bold mb-2">Plate Spot</h3>
-          <p className="text-gray-300 font-light">Created a full-stack web app using Node.js, MongoDB, HTML, and CSS to help users locate
-          restaurants. Demonstrates your ability to build client-server systems.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+              {/* Third Project Card */}
+              <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 hover:scale-110 transition-transform duration-200">
+                <Image
+                  src="/PlateSpot.jpg"
+                  alt="Plate Spot Project"
+                  width={500}
+                  height={300}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-2">Plate Spot</h3>
+                  <p className="text-gray-300 font-light">Created a full-stack web app using Node.js, MongoDB, HTML, and CSS to help users locate
+                  restaurants. Demonstrates your ability to build client-server systems.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Experience Section */}
         <section className="py-20 bg-black">
           <div className="max-w-4xl mx-auto px-4">
-            <div className="text-green-500 text-sm">// Work history</div>
+            <div className="text-green-500 text-sm">{/* Work history */}</div>
             <h2 className="text-4xl font-bold mb-12">Experience.log</h2>
             <div className="space-y-12">
               {/* Experience Item */}
@@ -179,56 +178,57 @@ const Portfolio = () => {
           </div>
         </section>
 
+        {/* Technology Section */}
         <section className="py-20 bg-black">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="text-green-500 text-sm">// technology</div>
-          <h2 className="text-4xl font-bold mb-12">tech i use[]</h2>
-          
-          <div className="space-y-12">
-            {/* Languages Section */}
-            <div>
-              <h3 className="text-2xl font-bold mb-6">Languages</h3>
-              <div className="grid grid-cols-3 md:grid-cols-5 gap-8">
-                {technologies.languages.map((tech, index) => {
-                  const IconComponent = tech.icon;
-                  return (
-                    <div 
-                      key={index} 
-                      className="flex flex-col items-center group hover:scale-110 transition-transform duration-200"
-                    >
-                      <div className="p-4 rounded-lg bg-zinc-900 border border-green-500/10 mb-2">
-                        <IconComponent className="w-8 h-8 text-green-500" />
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="text-green-500 text-sm">{/* technology */}</div>
+            <h2 className="text-4xl font-bold mb-12">tech i use[]</h2>
+            
+            <div className="space-y-12">
+              {/* Languages Section */}
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Languages</h3>
+                <div className="grid grid-cols-3 md:grid-cols-5 gap-8">
+                  {technologies.languages.map((tech, index) => {
+                    const IconComponent = tech.icon;
+                    return (
+                      <div 
+                        key={index} 
+                        className="flex flex-col items-center group hover:scale-110 transition-transform duration-200"
+                      >
+                        <div className="p-4 rounded-lg bg-zinc-900 border border-green-500/10 mb-2">
+                          <IconComponent className="w-8 h-8 text-green-500" />
+                        </div>
+                        <span className="text-gray-300 text-sm">{tech.name}</span>
                       </div>
-                      <span className="text-gray-300 text-sm">{tech.name}</span>
-                    </div>
-                  );
-                })}
+                    );
+                  })}
+                </div>
               </div>
-            </div>
 
-            {/* Tools Section */}
-            <div>
-              <h3 className="text-2xl font-bold mb-6">Tools</h3>
-              <div className="grid grid-cols-3 md:grid-cols-5 gap-8">
-                {technologies.tools.map((tech, index) => {
-                  const IconComponent = tech.icon;
-                  return (
-                    <div 
-                      key={index} 
-                      className="flex flex-col items-center group hover:scale-110 transition-transform duration-200"
-                    >
-                      <div className="p-4 rounded-lg bg-zinc-900 border border-green-500/10 mb-2">
-                        <IconComponent className="w-8 h-8 text-green-500" />
+              {/* Tools Section */}
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Tools</h3>
+                <div className="grid grid-cols-3 md:grid-cols-5 gap-8">
+                  {technologies.tools.map((tech, index) => {
+                    const IconComponent = tech.icon;
+                    return (
+                      <div 
+                        key={index} 
+                        className="flex flex-col items-center group hover:scale-110 transition-transform duration-200"
+                      >
+                        <div className="p-4 rounded-lg bg-zinc-900 border border-green-500/10 mb-2">
+                          <IconComponent className="w-8 h-8 text-green-500" />
+                        </div>
+                        <span className="text-gray-300 text-sm">{tech.name}</span>
                       </div>
-                      <span className="text-gray-300 text-sm">{tech.name}</span>
-                    </div>
-                  );
-                })}
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       </div>
     </>
   );
