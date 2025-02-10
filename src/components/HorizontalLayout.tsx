@@ -12,6 +12,7 @@ import {
   Settings,
   ArrowDownCircle
 } from 'lucide-react';
+import Image from 'next/image';
 
 
 
@@ -69,15 +70,17 @@ const Portfolio = () => {
             <h2 className="text-4xl font-bold mb-8">README.md</h2>
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="md:w-1/3">
-                <img
+                <Image
                   src="/profile.jpg"
                   alt="Profile"
+                  width={500}
+                  height={300}
                   className="max-w-full h-auto rounded-lg border border-green-500/20"
                 />
               </div>
               <div className="md:w-2/3">
                 <p className="text-lg text-gray-300 leading-relaxed font-light">
-                  Hi I'm Raqib, a software and business graduate with expertise in SQL, API integrations, and data-driven solutions. Experienced in designing
+                  Hi I&apos;m Raqib, a software and business graduate with expertise in SQL, API integrations, and data-driven solutions. Experienced in designing
                   and deploying scalable customer intelligence systems using analytics and cloud technologies. Skilled in automation, data
                   modeling, and quality assurance, with a passion for solving complex problems and enhancing customer experiences through
                   technology.
@@ -96,9 +99,11 @@ const Portfolio = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {/* Project Cards */}
       <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 hover:scale-110 transition-transform duration-200">
-        <img
+        <Image
           src="/musicAI.jpg"
           alt="Project 1"
+          width={500}
+          height={300}
           className="w-full h-48 object-cover"
         />
         <div className="p-6">
@@ -111,9 +116,11 @@ const Portfolio = () => {
       
       {/* Second Project Card */}
       <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 hover:scale-110 transition-transform duration-200">
-        <img
+        <Image
           src="/sqaRMS.jpg"
           alt="Project 1"
+          width={500}
+          height={300}
           className="w-full h-48 object-cover"
         />
         <div className="p-6">
@@ -126,9 +133,11 @@ const Portfolio = () => {
 
       {/* Third Project Card */}
       <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 hover:scale-110 transition-transform duration-200">
-        <img
+        <Image
           src="/PlateSpot.jpg"
           alt="Project 1"
+          width={500}
+          height={300}
           className="w-full h-48 object-cover"
         />
         <div className="p-6">
