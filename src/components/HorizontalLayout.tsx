@@ -72,7 +72,7 @@ const Portfolio = () => {
                 <img
                   src="/profile.jpg"
                   alt="Profile"
-                  className="rounded-lg border border-green-500/20"
+                  className="max-w-full h-auto rounded-lg border border-green-500/20"
                 />
               </div>
               <div className="md:w-2/3">
