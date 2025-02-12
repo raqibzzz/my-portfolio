@@ -55,7 +55,7 @@ const Portfolio = () => {
     </video>
           </div>
           <div className="relative z-10 text-center px-4">
-            <div className="text-green-500 text-sm mb-2">const introduction = {`{`}</div>
+            {/* <div className="text-green-500 text-sm mb-2">const introduction = {`{`}</div> */}
             <h1 className="text-6xl font-bold mb-2">Raqib Muktadir</h1>
             <p className="text-xl text-gray-300 mb-2 font-light">Software Developer & QA Specialist</p>
             <div className="text-green-500 text-sm mb-8">{`}`};</div>
