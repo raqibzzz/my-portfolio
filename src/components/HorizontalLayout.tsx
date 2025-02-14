@@ -1,16 +1,4 @@
 import React from 'react';
-import { 
-  FileCode2,
-  Binary, 
-  Database,
-  Globe,
-  Palette,
-  GitBranch,
-  Server,
-  Send,
-  Terminal,
-  Settings
-} from 'lucide-react';
 import Image from 'next/image';
 
 
