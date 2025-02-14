@@ -16,22 +16,6 @@ import Image from 'next/image';
 
 
 const Portfolio = () => {
-  const technologies = {
-    languages: [
-      { name: 'JavaScript', icon: FileCode2 },
-      { name: 'Python', icon: Binary },
-      { name: 'SQL', icon: Database },
-      { name: 'HTML', icon: Globe },
-      { name: 'CSS', icon: Palette }
-    ],
-    tools: [
-      { name: 'Git', icon: GitBranch },
-      { name: 'Jenkins', icon: Server },
-      { name: 'Postman', icon: Send },
-      { name: 'PowerShell', icon: Terminal },
-      { name: 'AutoIt', icon: Settings }
-    ]
-  };
   return (
     <>
       {/* Font imports */}
