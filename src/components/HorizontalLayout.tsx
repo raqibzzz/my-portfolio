@@ -109,53 +109,59 @@ const Portfolio = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {/* Project Cards */}
                   <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 project-card">
-                    <Image
-                      src="/musicAI.jpg"
-                      alt="Music AI Project"
-                      width={500}
-                      height={300}
-                      className="w-full h-48 object-cover project-image"
-                    />
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold mb-2">Spotify Music Discovery AI</h3>
-                      <p className="text-gray-300 font-light">Created a music discovery AI chatbot using Next.js that allows you to discover
-                      music according to your mood, with the help of OpenAI and Spotify API integrations to process user data in real time.
-                      </p>
-                    </div>
+                    <a href="https://github.com/raqibzzz/ai-music-discovery" target="_blank" rel="noopener noreferrer">
+                      <Image
+                        src="/musicAI.jpg"
+                        alt="Music AI Project"
+                        width={500}
+                        height={300}
+                        className="w-full h-48 object-cover project-image"
+                      />
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-2">Spotify Music Discovery AI</h3>
+                        <p className="text-gray-300 font-light">Created a music discovery AI chatbot using Next.js that allows you to discover
+                        music according to your mood, with the help of OpenAI and Spotify API integrations to process user data in real time.
+                        </p>
+                      </div>
+                    </a>
                   </div>
                   
                   {/* Second Project Card */}
                   <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 project-card">
-                    <Image
-                      src="/sqaRMS.jpg"
-                      alt="SQA RMS Project"
-                      width={500}
-                      height={300}
-                      className="w-full h-48 object-cover project-image"
-                    />
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold mb-2">SQA Orders Database</h3>
-                      <p className="text-gray-300 font-light">Developed a web-based inventory management system for internal use,
-                      integrating SQL databases and PHP, which improved efficiency by 15%
-                      </p>
-                    </div>
+                    <a href="https://github.com/raqibzzz/SQA-Orders-Database" target="_blank" rel="noopener noreferrer">
+                      <Image
+                        src="/sqaRMS.jpg"
+                        alt="SQA RMS Project"
+                        width={500}
+                        height={300}
+                        className="w-full h-48 object-cover project-image"
+                      />
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-2">SQA Orders Database</h3>
+                        <p className="text-gray-300 font-light">Developed a web-based inventory management system for internal use,
+                        integrating SQL databases and PHP, which improved efficiency by 15%
+                        </p>
+                      </div>
+                    </a>
                   </div>
 
                   {/* Third Project Card */}
                   <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 project-card">
-                    <Image
-                      src="/PlateSpot.jpg"
-                      alt="Plate Spot Project"
-                      width={500}
-                      height={300}
-                      className="w-full h-48 object-cover project-image"
-                    />
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold mb-2">Plate Spot</h3>
-                      <p className="text-gray-300 font-light">Created a full-stack web app using Node.js, MongoDB, HTML, and CSS to help users locate
-                      restaurants. Demonstrates your ability to build client-server systems.
-                      </p>
-                    </div>
+                    <a href="https://github.com/raqibzzz/Plate-Spot" target="_blank" rel="noopener noreferrer">
+                      <Image
+                        src="/PlateSpot.jpg"
+                        alt="Plate Spot Project"
+                        width={500}
+                        height={300}
+                        className="w-full h-48 object-cover project-image"
+                      />
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-2">Plate Spot</h3>
+                        <p className="text-gray-300 font-light">Created a full-stack web app using Node.js, MongoDB, HTML, and CSS to help users locate
+                        restaurants. Demonstrates your ability to build client-server systems.
+                        </p>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
