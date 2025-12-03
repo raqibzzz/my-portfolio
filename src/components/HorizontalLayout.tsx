@@ -70,7 +70,7 @@ const Portfolio = () => {
                 <div className="h-4"></div>
               </div>
             </div>
-            
+
             {/* Make about section have black background */}
             <div className="bg-black">
               {/* About Section */}
@@ -81,7 +81,7 @@ const Portfolio = () => {
                   <div className="flex flex-col md:flex-row gap-8 items-center">
                     <div className="md:w-1/3">
                       <Image
-                        src="/profile.jpg"
+                        src="/IMG_0078.jpg"
                         alt="Profile"
                         width={500}
                         height={300}
@@ -120,12 +120,12 @@ const Portfolio = () => {
                       <div className="p-6">
                         <h3 className="text-xl font-bold mb-2">Spotify Music Discovery AI</h3>
                         <p className="text-gray-300 font-light">Created a music discovery AI chatbot using Next.js that allows you to discover
-                        music according to your mood, with the help of OpenAI and Spotify API integrations to process user data in real time.
+                          music according to your mood, with the help of OpenAI and Spotify API integrations to process user data in real time.
                         </p>
                       </div>
                     </a>
                   </div>
-                  
+
                   {/* Second Project Card */}
                   <div className="bg-zinc-900 rounded-lg overflow-hidden border border-green-500/10 project-card">
                     <a href="https://github.com/raqibzzz/SQA-Orders-Database" target="_blank" rel="noopener noreferrer">
@@ -139,7 +139,7 @@ const Portfolio = () => {
                       <div className="p-6">
                         <h3 className="text-xl font-bold mb-2">SQA Orders Database</h3>
                         <p className="text-gray-300 font-light">Developed a web-based inventory management system for internal use,
-                        integrating SQL databases and PHP, which improved efficiency by 15%
+                          integrating SQL databases and PHP, which improved efficiency by 15%
                         </p>
                       </div>
                     </a>
@@ -158,7 +158,7 @@ const Portfolio = () => {
                       <div className="p-6">
                         <h3 className="text-xl font-bold mb-2">Plate Spot</h3>
                         <p className="text-gray-300 font-light">Created a full-stack web app using Node.js, MongoDB, HTML, and CSS to help users locate
-                        restaurants. Demonstrates your ability to build client-server systems.
+                          restaurants. Demonstrates your ability to build client-server systems.
                         </p>
                       </div>
                     </a>
@@ -182,7 +182,7 @@ const Portfolio = () => {
                       Streamlined inventory management by optimizing SQL queries and enhancing system performance through Jenkins testing. Automated QA processes with custom tools and testing frameworks using PowerShell and AutoIt. Developed and maintained server-side features for a web-based inventory system with PHP, HTML, CSS, and SQL.
                     </p>
                   </div>
-                  
+
                   <div className="border-l-2 pl-6 bg-black p-6">
                     <h3 className="text-2xl font-bold mb-2">Matrox Video</h3>
                     <p className="text-xl text-gray-300 mb-2 font-light">SQA Technician Intern</p>
