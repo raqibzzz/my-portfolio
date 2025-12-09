@@ -66,7 +66,7 @@ const Portfolio = () => {
             <div className="min-h-screen flex items-center justify-center">
               <div className="text-center px-4">
                 <h1 className="text-6xl font-bold mb-2">raqib muktadir</h1>
-                <p className="text-xl text-gray-300 mb-2 font-light">Software Developer & QA Specialist</p>
+                <p className="text-xl text-gray-300 mb-2 font-light">Aspiring Technology and Business Strategy Consultant</p>
                 <div className="h-4"></div>
               </div>
             </div>
@@ -174,22 +174,40 @@ const Portfolio = () => {
                 <h2 className="text-4xl font-bold mb-12">experience</h2>
                 <div className="space-y-12">
                   {/* Experience Item */}
+                  {/* Experience Item 1 */}
                   <div className="border-l-2 pl-6 bg-black p-6">
-                    <h3 className="text-2xl font-bold mb-2">Matrox Video</h3>
-                    <p className="text-xl text-gray-300 mb-2 font-light">SQA Programming Intern</p>
-                    <p className="text-gray-400 mb-4 font-light">05/2024 - Present</p>
-                    <p className="text-gray-300 font-light">
-                      Streamlined inventory management by optimizing SQL queries and enhancing system performance through Jenkins testing. Automated QA processes with custom tools and testing frameworks using PowerShell and AutoIt. Developed and maintained server-side features for a web-based inventory system with PHP, HTML, CSS, and SQL.
-                    </p>
+                    <h3 className="text-2xl font-bold mb-2">FiveFiveFive Studio Montreal</h3>
+                    <p className="text-xl text-gray-300 mb-2 font-light">Co-founder and Co-host</p>
+                    <p className="text-gray-400 mb-4 font-light">September 2025 – Present</p>
+                    <ul className="list-disc list-outside ml-4 text-gray-300 font-light space-y-2">
+                      <li>Co-founded a recurring creative speaker series, managing end-to-end strategy, operations, and partnerships to establish a platform for the Montreal tech ecosystem.</li>
+                      <li>Designed and launched the official <a href="https://www.fivefivefive.ca/" target="_blank" rel="noopener noreferrer" className="underline hover:text-green-500 transition-colors">FiveFiveFive website</a> and drove digital growth through targeted social media campaigns and content creation.</li>
+                      <li>Led speaker outreach and sponsorship negotiations, securing key collaborations that reduced costs and expanded the event’s reach and quality.</li>
+                    </ul>
                   </div>
 
+                  {/* Experience Item 2 */}
                   <div className="border-l-2 pl-6 bg-black p-6">
                     <h3 className="text-2xl font-bold mb-2">Matrox Video</h3>
-                    <p className="text-xl text-gray-300 mb-2 font-light">SQA Technician Intern</p>
-                    <p className="text-gray-400 mb-4 font-light">09/2023 - 05/2024</p>
-                    <p className="text-gray-300 font-light">
-                      Streamlined inventory management by optimizing SQL queries and enhancing system performance through Jenkins testing. Automated QA processes with custom tools and testing frameworks using PowerShell and AutoIt. Developed and maintained server-side features for a web-based inventory system with PHP, HTML, CSS, and SQL.
-                    </p>
+                    <p className="text-xl text-gray-300 mb-2 font-light">Quality Assurance Advisor and Engineer, IPKVM Products</p>
+                    <p className="text-gray-400 mb-4 font-light">April 2025 – Present</p>
+                    <ul className="list-disc list-outside ml-4 text-gray-300 font-light space-y-2">
+                      <li>Led end-to-end testing for the Avio2 IPKVM product line, defining coverage for 5K workflows and synthesizing findings to drive release readiness decisions.</li>
+                      <li>Improved test-cycle consistency by 30% by integrating reliable automated scripts and diagnosing complex hardware-software interaction issues.</li>
+                      <li>Facilitated cross-functional root-cause investigations, translating customer reports into reproducible test cases to enhance product stability and support.</li>
+                    </ul>
+                  </div>
+
+                  {/* Experience Item 3 */}
+                  <div className="border-l-2 pl-6 bg-black p-6">
+                    <h3 className="text-2xl font-bold mb-2">Matrox Video</h3>
+                    <p className="text-xl text-gray-300 mb-2 font-light">Software Developer Intern</p>
+                    <p className="text-gray-400 mb-4 font-light">May 2024 – April 2025</p>
+                    <ul className="list-disc list-outside ml-4 text-gray-300 font-light space-y-2">
+                      <li>Built a full-stack inventory management tool and an automated bug-reporting system, reducing manual documentation time by 30% and improving data integrity.</li>
+                      <li>Designed continuous automation frameworks and Jenkins pipelines to validate multi-signal workflows, enabling early detection of intermittent firmware bugs.</li>
+                      <li>Optimized internal SQL system performance by 20% and conducted root-cause analyses on client-facing issues to strengthen post-sales support.</li>
+                    </ul>
                   </div>
                 </div>
               </div>
