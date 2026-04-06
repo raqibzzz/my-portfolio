@@ -360,7 +360,7 @@ const Portfolio = () => {
                   {/* Matrox QA */}
                   <div className="border-l-2 border-green-500/30 pl-6 bg-black p-6">
                     <h3 className="text-2xl font-bold mb-2">Matrox Video</h3>
-                    <p className="text-xl text-gray-300 mb-2 font-light">Quality Assurance Advisor and Engineer, IPKVM Products</p>
+                    <p className="text-xl text-gray-300 mb-2 font-light">Software Automtion Developer, IPKVM Products</p>
                     <p className="text-gray-400 mb-4 font-light">April 2025 – Present</p>
                     <ul className="list-disc list-outside ml-4 text-gray-300 font-light space-y-2">
                       <li>Led end-to-end functional, regression, and performance testing for the Avio2 IPKVM product line, defining test coverage for 5K multi-display workflows and influencing release readiness decisions.</li>
