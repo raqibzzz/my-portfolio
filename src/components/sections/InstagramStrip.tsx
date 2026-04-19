@@ -73,10 +73,15 @@ export function InstagramStrip() {
         </motion.div>
       ) : (
         <div className="mx-auto w-full max-w-[1600px] px-6 md:px-10">
-          <div className="mono hairline flex flex-col gap-3 p-10 text-sm uppercase tracking-[0.2em] text-white/60">
-            <span className="text-[color:var(--color-accent)]">[GALLERY_EMPTY]</span>
-            <span>Drop 8–12 photos into /public/gallery/ and register them in lib/content.ts → gallery[].</span>
-            <span className="text-white/40">Each entry: {`{ src, alt, postUrl, caption? }`}</span>
+          <div className="hairline flex flex-col gap-4 p-10">
+            <span className="mono text-xs uppercase tracking-[0.3em] text-[color:var(--color-accent)]">
+              [FEED_PENDING]
+            </span>
+            <p className="max-w-2xl text-base leading-relaxed text-white/70 md:text-lg">
+              Usually this is a horizontal scroll of Montréal nights, rooftops,
+              and 555 after-parties. I&apos;ve been shipping instead of curating —
+              they live on Instagram in the meantime.
+            </p>
           </div>
         </div>
       )}

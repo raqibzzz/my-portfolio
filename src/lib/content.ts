@@ -58,8 +58,8 @@ export const site: SiteMeta = {
 };
 
 export const bio: string[] = [
-  "I'm an AI-oriented engineer building automation systems, LLM-powered tools, and full-stack applications that ship to production. At Matrox I spearheaded a test-automation initiative that had been stalled for over two years — delivering 80% of the target coverage within two weeks and cutting manual QA cycles by 30%.",
-  "Outside of day work I ship independent projects — NewsFlow, an AI Product Readiness Critic, a Spotify-integrated music discovery AI, and a Three.js audio-visual tool for live events. I co-founded 555(STUDIOS), a Montréal speaker series that has shipped 10+ events with a 100% fill rate and partners like Shopify, ETS, HEC, and Cansbridge.",
+  "I'm an AI-oriented engineer building automation systems, LLM-powered tools, and full-stack applications that ship to production. At Matrox I spearheaded a test-automation initiative that had been stalled for over two years delivering 80% of the target coverage within two weeks and cutting manual QA cycles by 30%.",
+  "Outside of day work I ship independent projects - NewsFlow, an AI Product Readiness Critic, a Spotify-integrated music discovery AI, and a Three.js audio-visual tool for live events. I co-founded 555(STUDIOS), a Montréal speaker series that has shipped 10+ events with a 100% fill rate and partners like Shopify, ETS, HEC, and Cansbridge.",
 ];
 
 export const highlights: HighlightStat[] = [

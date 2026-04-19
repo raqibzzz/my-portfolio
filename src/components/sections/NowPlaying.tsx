@@ -74,7 +74,8 @@ export function NowPlaying() {
     <Section id="now-playing" label="05 // SOUND" title="What I'm listening to.">
       <div className="grid gap-px bg-white md:grid-cols-12">
         {/* Now playing card */}
-        <Reveal className="bg-black md:col-span-7">
+        <div className="min-w-0 overflow-hidden bg-black md:col-span-7">
+          <Reveal className="h-full">
           <div className="flex h-full flex-col gap-6 p-8 md:p-10">
             <div className="mono flex items-center justify-between text-[10px] uppercase tracking-[0.25em]">
               <span className="flex items-center gap-3 text-[color:var(--color-accent)]">
@@ -99,10 +100,10 @@ export function NowPlaying() {
                 href={now.songUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="group flex gap-5"
+                className="group flex min-w-0 gap-5"
               >
                 {now.albumImageUrl ? (
-                  <div className="relative h-28 w-28 shrink-0 border border-white md:h-36 md:w-36">
+                  <div className="relative h-24 w-24 shrink-0 border border-white md:h-36 md:w-36">
                     <Image
                       src={now.albumImageUrl}
                       alt={now.album}
@@ -112,12 +113,12 @@ export function NowPlaying() {
                     />
                   </div>
                 ) : null}
-                <div className="flex flex-col justify-center gap-2">
-                  <h3 className="text-3xl font-bold leading-tight tracking-[-0.02em] text-white group-hover:text-[color:var(--color-accent)] md:text-4xl">
+                <div className="flex min-w-0 flex-1 flex-col justify-center gap-2">
+                  <h3 className="break-words text-2xl font-bold leading-tight tracking-[-0.02em] text-white group-hover:text-[color:var(--color-accent)] md:text-4xl">
                     {now.title}
                   </h3>
-                  <p className="text-lg text-white/70">{now.artist}</p>
-                  <p className="mono text-xs uppercase tracking-wider text-white/40">
+                  <p className="truncate text-base text-white/70 md:text-lg">{now.artist}</p>
+                  <p className="mono truncate text-xs uppercase tracking-wider text-white/40">
                     {now.album}
                     {now.playedAt ? ` · ${fmtTimeAgo(now.playedAt)}` : ""}
                   </p>
@@ -126,19 +127,20 @@ export function NowPlaying() {
             ) : (
               <div className="flex flex-col gap-3">
                 <h3 className="text-3xl font-bold leading-tight tracking-[-0.02em] text-white/70 md:text-4xl">
-                  Not wired up yet.
+                  Signal lost.
                 </h3>
                 <p className="mono text-xs uppercase tracking-wider text-white/40">
-                  Add SPOTIFY_CLIENT_ID / SECRET / REFRESH_TOKEN to .env.local to
-                  light this up.
+                  Spotify&apos;s taking a nap. The soundtrack returns shortly.
                 </p>
               </div>
             )}
           </div>
-        </Reveal>
+          </Reveal>
+        </div>
 
         {/* Top tracks */}
-        <Reveal className="bg-black md:col-span-5" delay={0.1}>
+        <div className="min-w-0 overflow-hidden bg-black md:col-span-5">
+          <Reveal className="h-full" delay={0.1}>
           <div className="flex h-full flex-col gap-5 p-8 md:p-10">
             <div className="mono flex items-center justify-between text-[10px] uppercase tracking-[0.25em] text-[color:var(--color-accent)]">
               <span>[TOP_TRACKS · 30D]</span>
@@ -190,7 +192,8 @@ export function NowPlaying() {
                   ))}
             </ol>
           </div>
-        </Reveal>
+          </Reveal>
+        </div>
       </div>
     </Section>
   );

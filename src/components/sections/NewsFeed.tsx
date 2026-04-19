@@ -33,36 +33,34 @@ export async function NewsFeed() {
       ) : (
         <div className="grid gap-px bg-white md:grid-cols-2 lg:grid-cols-3">
           {items.map((item, i) => (
-            <Reveal
-              key={`${item.source}-${item.link}`}
-              delay={i * 0.03}
-              className="bg-black"
-            >
-              <a
-                href={item.link}
-                target="_blank"
-                rel="noreferrer"
-                className="group flex h-full flex-col justify-between gap-5 p-6 transition-colors hover:bg-white hover:text-black"
-              >
-                <div className="mono flex items-center justify-between text-[10px] uppercase tracking-[0.25em] text-[color:var(--color-accent)] group-hover:text-black">
-                  <span>[SRC: {item.source.toUpperCase()}]</span>
-                  <span className="text-white/40 group-hover:text-black/60">
-                    {fmtDate(item.publishedAt)}
+            <div key={`${item.source}-${item.link}`} className="min-w-0 overflow-hidden bg-black">
+              <Reveal delay={i * 0.03} className="h-full">
+                <a
+                  href={item.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group flex h-full flex-col justify-between gap-5 p-6 transition-colors hover:bg-white hover:text-black"
+                >
+                  <div className="mono flex items-center justify-between text-[10px] uppercase tracking-[0.25em] text-[color:var(--color-accent)] group-hover:text-black">
+                    <span>[SRC: {item.source.toUpperCase()}]</span>
+                    <span className="text-white/40 group-hover:text-black/60">
+                      {fmtDate(item.publishedAt)}
+                    </span>
+                  </div>
+                  <h3 className="break-words text-xl font-bold leading-tight tracking-[-0.01em]">
+                    {item.title}
+                  </h3>
+                  {item.snippet ? (
+                    <p className="text-sm leading-relaxed text-white/60 group-hover:text-black/70">
+                      {item.snippet}
+                    </p>
+                  ) : null}
+                  <span className="mono text-[10px] uppercase tracking-[0.25em] text-white/50 group-hover:text-black/70">
+                    [READ] →
                   </span>
-                </div>
-                <h3 className="text-xl font-bold leading-tight tracking-[-0.01em]">
-                  {item.title}
-                </h3>
-                {item.snippet ? (
-                  <p className="text-sm leading-relaxed text-white/60 group-hover:text-black/70">
-                    {item.snippet}
-                  </p>
-                ) : null}
-                <span className="mono text-[10px] uppercase tracking-[0.25em] text-white/50 group-hover:text-black/70">
-                  [READ] →
-                </span>
-              </a>
-            </Reveal>
+                </a>
+              </Reveal>
+            </div>
           ))}
         </div>
       )}

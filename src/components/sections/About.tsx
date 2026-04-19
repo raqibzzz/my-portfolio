@@ -17,21 +17,23 @@ export function About() {
         </div>
         <div className="md:col-span-5 grid grid-cols-2 gap-px bg-white">
           {highlights.map((h, i) => (
-            <Reveal key={h.label} delay={0.1 + i * 0.05} className="bg-black">
-              <div className="flex h-full flex-col justify-between gap-4 p-6">
-                <div className="text-5xl font-bold leading-none tracking-[-0.03em] text-white md:text-6xl">
-                  {h.value}
-                </div>
-                <div className="flex flex-col gap-2">
-                  <div className="mono text-[10px] uppercase tracking-[0.2em] text-[color:var(--color-accent)]">
-                    {h.label}
+            <div key={h.label} className="min-w-0 overflow-hidden bg-black">
+              <Reveal delay={0.1 + i * 0.05} className="h-full">
+                <div className="flex h-full flex-col justify-between gap-4 p-6">
+                  <div className="text-5xl font-bold leading-none tracking-[-0.03em] text-white md:text-6xl">
+                    {h.value}
                   </div>
-                  <div className="mono text-xs leading-relaxed text-white/60">
-                    {h.detail}
+                  <div className="flex flex-col gap-2">
+                    <div className="mono text-[10px] uppercase tracking-[0.2em] text-[color:var(--color-accent)]">
+                      {h.label}
+                    </div>
+                    <div className="mono text-xs leading-relaxed text-white/60">
+                      {h.detail}
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Reveal>
+              </Reveal>
+            </div>
           ))}
         </div>
       </div>

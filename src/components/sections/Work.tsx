@@ -7,14 +7,15 @@ export function Work() {
     <Section id="work" label="02 // SELECTED WORK" title="Projects that shipped.">
       <div className="grid grid-cols-1 gap-px bg-white md:grid-cols-2">
         {projects.map((p, i) => (
-          <Reveal key={p.slug} delay={i * 0.05} className="bg-black">
+          <div key={p.slug} className="min-w-0 overflow-hidden bg-black">
+            <Reveal delay={i * 0.05} className="h-full">
             <article className="group flex h-full flex-col justify-between gap-8 p-8 transition-colors duration-150 hover:bg-[color:var(--color-accent)] hover:text-black md:p-10">
               <header className="flex items-start justify-between gap-4">
                 <div className="flex flex-col gap-2">
                   <span className="mono text-[10px] uppercase tracking-[0.25em] text-white/60 group-hover:text-black/70">
                     [{p.year}] // #{String(i + 1).padStart(2, "0")}
                   </span>
-                  <h3 className="text-3xl font-bold leading-tight tracking-[-0.02em] md:text-4xl">
+                  <h3 className="break-words text-3xl font-bold leading-tight tracking-[-0.02em] md:text-4xl">
                     {p.name}
                   </h3>
                 </div>
@@ -39,7 +40,8 @@ export function Work() {
                 </div>
               </div>
             </article>
-          </Reveal>
+            </Reveal>
+          </div>
         ))}
       </div>
     </Section>
