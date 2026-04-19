@@ -1,0 +1,5 @@
+[     209ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.noemamag.com/wp-content/mu-plugins/berggruen/assets/inc/css/video-js.8.3.0.min.css?ver=1776447794.16:0
+[     378ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://www.noemamag.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    1046ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.noemamag.com/wp-json/wp/v2/users/me?context=edit&_locale=user:0
+[    1047ms] Object
+[    1575ms] [LOG] Noa - EV | Name: embed-player | Action: load | Label: articles-47022 | Value: undefined @ https://embed-player.newsoveraudio.com/js/bundle.a4b5ad34ad429fe65d31.min.js:21

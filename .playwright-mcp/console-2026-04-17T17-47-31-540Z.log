@@ -1,0 +1,20 @@
+[     547ms] [ERROR] %cCW display: inline-block; color: #fff; font-size: 9px; background: #61B321; padding: 1px 4px; border-radius: 0; margin-right: 1px; Missing a base prebid mapping for base "pb-slot-anchor" @ https://dn0qt3r0xannq.cloudfront.net/venturebeat-ZUVdMvorYO/venturebeat-longform/prebid-wrapper.js:1
+[     573ms] [LOG] %craven%c Raven v1.19.14-y0ptsc background-color:#000;margin-left:1px;padding:1px 3px;font-size:0.75em;color:#ffffff; font-size:0.9em; @ https://raven-static.aditude.io/prod/1.19.14-y0ptsc/raven.js:1
+[    1339ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    1478ms] [ERROR] Access to fetch at 'https://id5-sync.com/g/v2/1016.json' from origin 'https://venturebeat.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma:0
+[    1479ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://id5-sync.com/g/v2/1016.json:0
+[    2287ms] [WARNING] [GPT] Slot article-ad-slot-1 rendered inside of the viewport.
+https://goo.gle/gpt-message#169 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604130101/pubads_impl.js:18
+[    3197ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma:0
+[    3197ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma:0
+[    3285ms] [ERROR] Failed to load resource: the server responded with a status of 424 (Failed Dependency) @ https://t.adx.opera.com/pub/sync?pubid=pub10101531197440&gdpr=1&gdpr_consent=:0
+[    1339ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    1339ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3574ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3615ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3630ms] [ERROR] Failed to load resource: the server responded with a status of 451 () @ https://api.rlcdn.com/api/identity/envelope?pid=13963:0
+[    3869ms] [ERROR] Access to fetch at 'https://id5-sync.com/g/v2/1235.json' from origin 'https://venturebeat.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma:0
+[    3869ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://id5-sync.com/g/v2/1235.json:0
+[    3983ms] [ERROR] Access to fetch at 'https://id5-sync.com/g/v2/1235.json' from origin 'https://venturebeat.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma:0
+[    3983ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://id5-sync.com/g/v2/1235.json:0
+[    5611ms] [TIMEEND] a: 0 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31

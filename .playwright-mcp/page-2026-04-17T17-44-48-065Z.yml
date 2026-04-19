@@ -1,0 +1,471 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "R/M" [ref=e5] [cursor=pointer]:
+        - /url: "#top"
+      - navigation [ref=e6]:
+        - link "ABOUT" [ref=e7] [cursor=pointer]:
+          - /url: "#about"
+        - link "WORK" [ref=e8] [cursor=pointer]:
+          - /url: "#work"
+        - link "EXPERIENCE" [ref=e9] [cursor=pointer]:
+          - /url: "#experience"
+        - link "555" [ref=e10] [cursor=pointer]:
+          - /url: "#555"
+        - link "SOUND" [ref=e11] [cursor=pointer]:
+          - /url: "#now-playing"
+        - link "GALLERY" [ref=e12] [cursor=pointer]:
+          - /url: "#gallery"
+        - link "NEWS" [ref=e13] [cursor=pointer]:
+          - /url: "#news"
+        - link "CONTACT" [ref=e14] [cursor=pointer]:
+          - /url: "#contact"
+      - link "[GET_IN_TOUCH]" [ref=e15] [cursor=pointer]:
+        - /url: mailto:raqibmuktadir2@gmail.com
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: "[PORTFOLIO_v1.0]"
+          - generic [ref=e22]: EST. 2026 · MONTRÉAL, QC
+        - generic [ref=e23]:
+          - generic [ref=e24]: 555-studio.com
+          - generic [ref=e25]: "[CO-FOUNDER · 555(STUDIOS)]"
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: "[IDENTITY]"
+          - heading "RAQIB MUKTADIR." [level=1] [ref=e29]:
+            - text: RAQIB
+            - text: MUKTADIR.
+        - paragraph [ref=e30]: AI Engineer · Test Automation · Full-Stack Builder
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - link "[VIEW_WORK] →" [ref=e33] [cursor=pointer]:
+            - /url: "#work"
+          - link "[GET_IN_TOUCH]" [ref=e34] [cursor=pointer]:
+            - /url: "#contact"
+        - generic [ref=e38]: AVAILABLE FOR 2026 OPPORTUNITIES
+    - generic [ref=e40]:
+      - generic [ref=e41]: AI ENGINEER—
+      - generic [ref=e42]: TEST AUTOMATION—
+      - generic [ref=e43]: FULL-STACK BUILDER—
+      - generic [ref=e44]: 555 STUDIOS—
+      - generic [ref=e45]: MONTRÉAL—
+      - generic [ref=e46]: 2026—
+      - generic [ref=e47]: AI ENGINEER—
+      - generic [ref=e48]: TEST AUTOMATION—
+      - generic [ref=e49]: FULL-STACK BUILDER—
+      - generic [ref=e50]: 555 STUDIOS—
+      - generic [ref=e51]: MONTRÉAL—
+      - generic [ref=e52]: 2026—
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e57]: "[01 // ABOUT]"
+        - heading "An engineer who ships." [level=2] [ref=e58]
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - paragraph [ref=e62]: I'm an AI-oriented engineer building automation systems, LLM-powered tools, and full-stack applications that ship to production. At Matrox I spearheaded a test-automation initiative that had been stalled for over two years — delivering 80% of the target coverage within two weeks and cutting manual QA cycles by 30%.
+          - paragraph [ref=e64]: Outside of day work I ship independent projects — NewsFlow, an AI Product Readiness Critic, a Spotify-integrated music discovery AI, and a Three.js audio-visual tool for live events. I co-founded 555(STUDIOS), a Montréal speaker series that has shipped 10+ events with a 100% fill rate and partners like Shopify, ETS, HEC, and Cansbridge.
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: 80%
+            - generic [ref=e69]:
+              - generic [ref=e70]: AUTOMATION_COVERAGE
+              - generic [ref=e71]: Target reached in 2 weeks on a 2-year-stalled Matrox initiative.
+          - generic [ref=e73]:
+            - generic [ref=e74]: 30%
+            - generic [ref=e75]:
+              - generic [ref=e76]: QA_CYCLE_REDUCTION
+              - generic [ref=e77]: Manual verification replaced with CI-integrated Playwright + Robot Framework.
+          - generic [ref=e79]:
+            - generic [ref=e80]: 711+
+            - generic [ref=e81]:
+              - generic [ref=e82]: EVENT_REGISTRATIONS
+              - generic [ref=e83]: Across 10+ 555(STUDIOS) events. 100% venue fill rate.
+          - generic [ref=e85]:
+            - generic [ref=e86]: 6+
+            - generic [ref=e87]:
+              - generic [ref=e88]: SHIPPED_PROJECTS
+              - generic [ref=e89]: Independent AI, event tooling, and finance apps in production.
+    - generic [ref=e91]:
+      - generic [ref=e93]:
+        - generic [ref=e94]: "[02 // SELECTED WORK]"
+        - heading "Projects that shipped." [level=2] [ref=e95]
+      - generic [ref=e96]:
+        - article [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: "[2025] // #01"
+              - heading "NewsFlow" [level=3] [ref=e102]
+            - generic [ref=e103]: →
+          - generic [ref=e104]:
+            - paragraph [ref=e105]: AI news aggregator pulling 20+ RSS sources, deduped through a custom 3-layer pipeline (exact hash → Levenshtein → cosine similarity on word-frequency vectors).
+            - paragraph [ref=e106]: ↳ Recency + corroboration scoring ranks stories. Isolated GPT-4o-mini assistant queries both article DB and live web without context contamination.
+            - generic [ref=e107]:
+              - generic [ref=e108]: Next.js
+              - generic [ref=e109]: TypeScript
+              - generic [ref=e110]: Prisma
+              - generic [ref=e111]: SQLite
+              - generic [ref=e112]: GPT-4o-mini
+        - article [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: "[2025] // #02"
+              - heading "Avio2 Automation Suite" [level=3] [ref=e118]
+            - generic [ref=e119]: →
+          - generic [ref=e120]:
+            - paragraph [ref=e121]: 11 end-to-end test scripts covering auth, session management, tab navigation, device control, bitrate cycling, and API-triggered reboot recovery.
+            - paragraph [ref=e122]: ↳ Jenkins pipeline with dynamic multi-node agents, 10–12h timeouts, automated HTML email reporting. Zero manual steps from trigger to report.
+            - generic [ref=e123]:
+              - generic [ref=e124]: Robot Framework
+              - generic [ref=e125]: Playwright
+              - generic [ref=e126]: Python
+              - generic [ref=e127]: Jenkins
+              - generic [ref=e128]: Groovy
+        - article [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: "[2025] // #03"
+              - heading "AI Product Readiness Critic" [level=3] [ref=e134]
+            - generic [ref=e135]: →
+          - generic [ref=e136]:
+            - paragraph [ref=e137]: "Structured LLM critique engine with modular prompt composition: base template plus injectable strictness (Gentle / Normal / Brutal) and persona slots."
+            - paragraph [ref=e138]: ↳ Every model response Zod-validated before rendering — silent failures impossible.
+            - generic [ref=e139]:
+              - generic [ref=e140]: TypeScript
+              - generic [ref=e141]: Next.js
+              - generic [ref=e142]: OpenAI API
+              - generic [ref=e143]: Zod
+        - article [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - generic [ref=e148]: "[2024] // #04"
+              - heading "Spotify Music Discovery AI" [level=3] [ref=e149]
+            - generic [ref=e150]: →
+          - generic [ref=e151]:
+            - paragraph [ref=e152]: Natural-language mood → track recommendations. OpenAI parses intent, Spotify API pulls real-time listening context.
+            - paragraph [ref=e153]: ↳ Chat UI that recommends music that actually fits the vibe you describe.
+            - generic [ref=e154]:
+              - generic [ref=e155]: Next.js
+              - generic [ref=e156]: TypeScript
+              - generic [ref=e157]: OpenAI API
+              - generic [ref=e158]: Spotify API
+        - article [ref=e160]:
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: "[2024] // #05"
+              - heading "555(SOUNDS)" [level=3] [ref=e164]
+            - generic [ref=e165]: →
+          - generic [ref=e166]:
+            - paragraph [ref=e167]: Real-time VJ-lite performance tool built for live 555 Studio events. Audio-reactive 3D scenes with live cursor control for on-stage performance.
+            - paragraph [ref=e168]: ↳ Ran live at 555(STUDIOS) Electra — an audio-visual performance format.
+            - generic [ref=e169]:
+              - generic [ref=e170]: TypeScript
+              - generic [ref=e171]: Three.js
+              - generic [ref=e172]: Web Audio API
+        - article [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - generic [ref=e177]: "[2024] // #06"
+              - heading "HDMI Visual Test Automation" [level=3] [ref=e178]
+            - generic [ref=e179]: →
+          - generic [ref=e180]:
+            - paragraph [ref=e181]: Drives FPGA-generated HDMI signals, captures frames via webcam, compares against reference patterns to flag regressions.
+            - paragraph [ref=e182]: ↳ Precursor architecture to VLM-based visual grading systems — shipped for firmware regression tracking.
+            - generic [ref=e183]:
+              - generic [ref=e184]: C#
+              - generic [ref=e185]: FPGA
+              - generic [ref=e186]: Computer Vision
+    - generic [ref=e188]:
+      - generic [ref=e190]:
+        - generic [ref=e191]: "[03 // EXPERIENCE]"
+        - heading "Where I've built." [level=2] [ref=e192]
+      - list [ref=e193]:
+        - listitem [ref=e195]:
+          - generic [ref=e196]:
+            - generic [ref=e197]: APR 2025 — PRESENT
+            - heading "Matrox Video — IPKVM Products" [level=3] [ref=e198]
+            - generic [ref=e199]: Test Automation Developer · Montréal, QC
+          - list [ref=e200]:
+            - listitem [ref=e201]:
+              - generic [ref=e202]: ▸
+              - generic [ref=e203]: Spearheaded an Avio2 IP-KVM WebUI test automation initiative stalled for 2+ years — delivered a CI-integrated framework covering 80% of target scenarios within 2 weeks using 11 Robot Framework + Playwright scripts.
+            - listitem [ref=e204]:
+              - generic [ref=e205]: ▸
+              - generic [ref=e206]: Reduced manual QA verification by 30% by integrating automated scripts into the Jenkins release pipeline, replacing repetitive regression cycles with headless Chromium runs on every build.
+            - listitem [ref=e207]:
+              - generic [ref=e208]: ▸
+              - generic [ref=e209]: Designed standard + long-run stress Jenkins pipelines sustaining 1,000+ loop iterations with per-loop result isolation, orphaned Chromium cleanup every 50 cycles, and automated HTML email reporting via SMTP.
+            - listitem [ref=e210]:
+              - generic [ref=e211]: ▸
+              - generic [ref=e212]: Built a PyQt5 desktop GUI (Avio2 Device Manager) consolidating fragmented per-device browser sessions into one interface for live REST API data, bitrate/codec control, NMOS status, and multi-device identity management.
+            - listitem [ref=e213]:
+              - generic [ref=e214]: ▸
+              - generic [ref=e215]: "Authored REST API automation across 3 namespaces (auth, mgmt, app): bearer-token flows, reboot-triggered health polling up to 3 minutes, endpoint coverage mapped from internal OpenAPI specs."
+            - listitem [ref=e216]:
+              - generic [ref=e217]: ▸
+              - generic [ref=e218]: Identified and reported a session token security observation (Chrome Session Storage exposure) with XSS protection suggestions — security-first engineering mindset beyond QA scope.
+        - listitem [ref=e220]:
+          - generic [ref=e221]:
+            - generic [ref=e222]: MAY 2024 — APR 2025
+            - heading "Matrox Video" [level=3] [ref=e223]
+            - generic [ref=e224]: Software Developer Intern · Montréal, QC
+          - list [ref=e225]:
+            - listitem [ref=e226]:
+              - generic [ref=e227]: ▸
+              - generic [ref=e228]: Improved internal inventory system performance by 20% by redesigning SQL queries and resolving long-standing bottlenecks in a PHP/MySQL productivity tool used daily by QA.
+            - listitem [ref=e229]:
+              - generic [ref=e230]: ▸
+              - generic [ref=e231]: Built a full automated bug-reporting system integrating test logs with the Jira API — eliminated manual copy-paste, cut documentation time 30%.
+            - listitem [ref=e232]:
+              - generic [ref=e233]: ▸
+              - generic [ref=e234]: Built CI/CD pipelines in Jenkins for IP and SDI video workflows; translated client-reported failures into structured, reproducible test cases.
+            - listitem [ref=e235]:
+              - generic [ref=e236]: ▸
+              - generic [ref=e237]: Designed overnight automation in PowerShell + AutoIt executing hundreds of nightly test cycles with real-time log generation — surfaced intermittent bugs in hours instead of days.
+            - listitem [ref=e238]:
+              - generic [ref=e239]: ▸
+              - generic [ref=e240]: Developed C# visual automation capturing monitor snapshots during FPGA hardware simulations and logging discrepancies against reference patterns for firmware regression tracking.
+        - listitem [ref=e242]:
+          - generic [ref=e243]:
+            - generic [ref=e244]: SEP 2024 — PRESENT
+            - heading "555(STUDIOS) — FiveFiveFive" [level=3] [ref=e245]
+            - generic [ref=e246]: Co-Founder & Experience Lead · Montréal, QC
+          - list [ref=e247]:
+            - listitem [ref=e248]:
+              - generic [ref=e249]: ▸
+              - generic [ref=e250]: Co-founded and operate a Montreal-based creative speaker series — 10+ events shipped, 711+ registrations, 100% venue fill rate. Partners include Shopify, ETS, HEC, Cansbridge.
+            - listitem [ref=e251]:
+              - generic [ref=e252]: ▸
+              - generic [ref=e253]: "Designed and built 555-studio.com end-to-end: event details, speaker showcases, registration flow in Next.js + TypeScript."
+            - listitem [ref=e254]:
+              - generic [ref=e255]: ▸
+              - generic [ref=e256]: Led speaker outreach, sponsorship negotiations, and event ops across Presentation Night (5/5/5), Builder Sundays with Shopify, and Electra — a live audio-visual experience.
+        - listitem [ref=e257]
+    - generic [ref=e258]:
+      - generic [ref=e260]:
+        - generic [ref=e261]: 555(STUDIOS)×
+        - generic [ref=e262]: PRESENTATION NIGHT×
+        - generic [ref=e263]: BUILDER SUNDAYS×
+        - generic [ref=e264]: ELECTRA×
+        - generic [ref=e265]: MONTREAL×
+        - generic [ref=e266]: 555(STUDIOS)×
+        - generic [ref=e267]: PRESENTATION NIGHT×
+        - generic [ref=e268]: BUILDER SUNDAYS×
+        - generic [ref=e269]: ELECTRA×
+        - generic [ref=e270]: MONTREAL×
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: "[04 // SIDE STUDIO]"
+          - heading "555(STUDIOS)" [level=2] [ref=e274]
+          - paragraph [ref=e275]: A Montréal creative speaker series.
+        - generic [ref=e276]:
+          - paragraph [ref=e278]: Co-founded in 2024, 555(STUDIOS) is a Montreal-based creative speaker series running formats like Presentation Night (5 stories / 5 slides / 5 minutes), Builder Sundays with Shopify, and Electra — a live audio-visual performance experience.
+          - paragraph [ref=e280]: 10+ events. 711+ registrations. 100% venue fill rate. Partners include Shopify, ETS, HEC, and Cansbridge.
+          - link "[VISIT 555-STUDIO.COM] →" [ref=e282] [cursor=pointer]:
+            - /url: https://www.555-studio.com
+      - generic [ref=e284]:
+        - generic [ref=e285]: SHOPIFY/
+        - generic [ref=e286]: ETS/
+        - generic [ref=e287]: HEC/
+        - generic [ref=e288]: CANSBRIDGE/
+        - generic [ref=e289]: 711+ REGISTRATIONS/
+        - generic [ref=e290]: 100% FILL RATE/
+        - generic [ref=e291]: SHOPIFY/
+        - generic [ref=e292]: ETS/
+        - generic [ref=e293]: HEC/
+        - generic [ref=e294]: CANSBRIDGE/
+        - generic [ref=e295]: 711+ REGISTRATIONS/
+        - generic [ref=e296]: 100% FILL RATE/
+    - generic [ref=e298]:
+      - generic [ref=e300]:
+        - generic [ref=e301]: "[05 // SOUND]"
+        - heading "What I'm listening to." [level=2] [ref=e302]
+      - generic [ref=e303]:
+        - generic [ref=e305]:
+          - generic [ref=e306]:
+            - generic [ref=e313]: "[CONNECTING...]"
+            - generic [ref=e314]: "SRC: SPOTIFY · REFRESH 30s"
+          - generic [ref=e315]:
+            - heading "Not wired up yet." [level=3] [ref=e316]
+            - paragraph [ref=e317]: Add SPOTIFY_CLIENT_ID / SECRET / REFRESH_TOKEN to .env.local to light this up.
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - generic [ref=e321]: "[TOP_TRACKS · 30D]"
+            - generic [ref=e322]: RANKED
+          - list [ref=e323]:
+            - listitem [ref=e324]:
+              - generic [ref=e325]: "01"
+              - generic [ref=e326]: — awaiting Spotify credentials —
+            - listitem [ref=e327]:
+              - generic [ref=e328]: "02"
+              - generic [ref=e329]: — awaiting Spotify credentials —
+            - listitem [ref=e330]:
+              - generic [ref=e331]: "03"
+              - generic [ref=e332]: — awaiting Spotify credentials —
+            - listitem [ref=e333]:
+              - generic [ref=e334]: "04"
+              - generic [ref=e335]: — awaiting Spotify credentials —
+            - listitem [ref=e336]:
+              - generic [ref=e337]: "05"
+              - generic [ref=e338]: — awaiting Spotify credentials —
+    - generic [ref=e339]:
+      - generic [ref=e341]:
+        - generic [ref=e342]:
+          - text: "[06 // FIELD NOTES]"
+          - heading "From @raqibzzz." [level=2] [ref=e343]
+        - link "[FOLLOW ON INSTAGRAM] →" [ref=e344] [cursor=pointer]:
+          - /url: https://www.instagram.com/raqibzzz/
+      - generic [ref=e346]:
+        - generic [ref=e347]: "[GALLERY_EMPTY]"
+        - generic [ref=e348]: Drop 8–12 photos into /public/gallery/ and register them in lib/content.ts → gallery[].
+        - generic [ref=e349]: "Each entry: { src, alt, postUrl, caption? }"
+    - generic [ref=e351]:
+      - generic [ref=e353]:
+        - generic [ref=e354]: "[07 // AI NEWS FEED]"
+        - heading "What the field is shipping." [level=2] [ref=e355]
+      - generic [ref=e356]:
+        - generic [ref=e357]: "[AGGREGATED · 7 SOURCES · REVALIDATES HOURLY]"
+        - generic [ref=e358]: "LAST_PULL: Fri, 17 Apr 2026 17:44:47 UTC"
+      - generic [ref=e359]:
+        - 'link "[SRC: HN (AI)] Apr 17, 2026 Why AI Needs a Sense of Smell Article URL: https://www.noemamag.com/why-ai-needs-a-sense-of-smell/ Comments URL: https://news.ycombinator.com/item?id=47808419 Points: 1 # Comments: 0 [READ] →" [ref=e361] [cursor=pointer]':
+          - /url: https://www.noemamag.com/why-ai-needs-a-sense-of-smell/
+          - generic [ref=e362]:
+            - generic [ref=e363]: "[SRC: HN (AI)]"
+            - generic [ref=e364]: Apr 17, 2026
+          - heading "Why AI Needs a Sense of Smell" [level=3] [ref=e365]
+          - paragraph [ref=e366]: "Article URL: https://www.noemamag.com/why-ai-needs-a-sense-of-smell/ Comments URL: https://news.ycombinator.com/item?id=47808419 Points: 1 # Comments: 0"
+          - generic [ref=e367]: "[READ] →"
+        - 'link "[SRC: HN (AI)] Apr 17, 2026 Opencognit – open-source AI agent OS Article URL: https://github.com/OpenCognit/Opencognit Comments URL: https://news.ycombinator.com/item?id=47808392 Points: 1 # Comments: 0 [READ] →" [ref=e369] [cursor=pointer]':
+          - /url: https://github.com/OpenCognit/Opencognit
+          - generic [ref=e370]:
+            - generic [ref=e371]: "[SRC: HN (AI)]"
+            - generic [ref=e372]: Apr 17, 2026
+          - heading "Opencognit – open-source AI agent OS" [level=3] [ref=e373]
+          - paragraph [ref=e374]: "Article URL: https://github.com/OpenCognit/Opencognit Comments URL: https://news.ycombinator.com/item?id=47808392 Points: 1 # Comments: 0"
+          - generic [ref=e375]: "[READ] →"
+        - 'link "[SRC: HN (AI)] Apr 17, 2026 Ask HN: AI exhaust is probably worth something to you or someone else Every prompt, chat, and newsletter I burn through says a lot about how I think and work, but right now it''s just sitting in 10 different tools doing nothing. Been wondering if peop… [READ] →" [ref=e377] [cursor=pointer]':
+          - /url: https://news.ycombinator.com/item?id=47808264
+          - generic [ref=e378]:
+            - generic [ref=e379]: "[SRC: HN (AI)]"
+            - generic [ref=e380]: Apr 17, 2026
+          - 'heading "Ask HN: AI exhaust is probably worth something to you or someone else" [level=3] [ref=e381]'
+          - paragraph [ref=e382]: Every prompt, chat, and newsletter I burn through says a lot about how I think and work, but right now it's just sitting in 10 different tools doing nothing. Been wondering if peop…
+          - generic [ref=e383]: "[READ] →"
+        - 'link "[SRC: VENTUREBEAT AI] Apr 17, 2026 Most enterprises can''t stop stage-three AI agent threats, VentureBeat survey finds A rogue AI agent at Meta passed every identity check and still exposed sensitive data to unauthorized employees in March. Two weeks later, Mercor, a $10 billion AI startup, confirm… [READ] →" [ref=e385] [cursor=pointer]':
+          - /url: https://venturebeat.com/security/most-enterprises-cant-stop-stage-three-ai-agent-threats-venturebeat-survey-finds
+          - generic [ref=e386]:
+            - generic [ref=e387]: "[SRC: VENTUREBEAT AI]"
+            - generic [ref=e388]: Apr 17, 2026
+          - heading "Most enterprises can't stop stage-three AI agent threats, VentureBeat survey finds" [level=3] [ref=e389]
+          - paragraph [ref=e390]: A rogue AI agent at Meta passed every identity check and still exposed sensitive data to unauthorized employees in March. Two weeks later, Mercor, a $10 billion AI startup, confirm…
+          - generic [ref=e391]: "[READ] →"
+        - 'link "[SRC: HN (AI)] Apr 17, 2026 The Download: bad news for inner Neanderthals, and AI warfare''s human illusion Article URL: https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/ Comments URL: https://news.ycombinator.com/item?id=4780812… [READ] →" [ref=e393] [cursor=pointer]':
+          - /url: https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/
+          - generic [ref=e394]:
+            - generic [ref=e395]: "[SRC: HN (AI)]"
+            - generic [ref=e396]: Apr 17, 2026
+          - 'heading "The Download: bad news for inner Neanderthals, and AI warfare''s human illusion" [level=3] [ref=e397]'
+          - paragraph [ref=e398]: "Article URL: https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/ Comments URL: https://news.ycombinator.com/item?id=4780812…"
+          - generic [ref=e399]: "[READ] →"
+        - 'link "[SRC: HN (AI)] Apr 17, 2026 From Future of Work to Future of Workers: Addressing Asymptomatic AI Harms Article URL: https://arxiv.org/abs/2601.21920 Comments URL: https://news.ycombinator.com/item?id=47807944 Points: 1 # Comments: 0 [READ] →" [ref=e401] [cursor=pointer]':
+          - /url: https://arxiv.org/abs/2601.21920
+          - generic [ref=e402]:
+            - generic [ref=e403]: "[SRC: HN (AI)]"
+            - generic [ref=e404]: Apr 17, 2026
+          - 'heading "From Future of Work to Future of Workers: Addressing Asymptomatic AI Harms" [level=3] [ref=e405]'
+          - paragraph [ref=e406]: "Article URL: https://arxiv.org/abs/2601.21920 Comments URL: https://news.ycombinator.com/item?id=47807944 Points: 1 # Comments: 0"
+          - generic [ref=e407]: "[READ] →"
+        - 'link "[SRC: HN (AI)] Apr 17, 2026 \"AI Affiliate Campaign Builder – Auto-generates funnels,leads and promos in 60s\" Article URL: https://3000-ixuoqvbqmnmkcitl7dir1-6ba1a608.us2.manus.computer Comments URL: https://news.ycombinator.com/item?id=47807869 Points: 1 # Comments: 0 [READ] →" [ref=e409] [cursor=pointer]':
+          - /url: https://3000-ixuoqvbqmnmkcitl7dir1-6ba1a608.us2.manus.computer
+          - generic [ref=e410]:
+            - generic [ref=e411]: "[SRC: HN (AI)]"
+            - generic [ref=e412]: Apr 17, 2026
+          - heading "\"AI Affiliate Campaign Builder – Auto-generates funnels,leads and promos in 60s\"" [level=3] [ref=e413]
+          - paragraph [ref=e414]: "Article URL: https://3000-ixuoqvbqmnmkcitl7dir1-6ba1a608.us2.manus.computer Comments URL: https://news.ycombinator.com/item?id=47807869 Points: 1 # Comments: 0"
+          - generic [ref=e415]: "[READ] →"
+        - 'link "[SRC: TECHCRUNCH AI] Apr 17, 2026 Tokenmaxxing, OpenAI’s shopping spree, and the AI Anxiety Gap The gap between AI insiders and everyone else is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything f… [READ] →" [ref=e417] [cursor=pointer]':
+          - /url: https://techcrunch.com/podcast/tokenmaxxing-openais-shopping-spree-and-the-ai-anxiety-gap/
+          - generic [ref=e418]:
+            - generic [ref=e419]: "[SRC: TECHCRUNCH AI]"
+            - generic [ref=e420]: Apr 17, 2026
+          - heading "Tokenmaxxing, OpenAI’s shopping spree, and the AI Anxiety Gap" [level=3] [ref=e421]
+          - paragraph [ref=e422]: The gap between AI insiders and everyone else is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything f…
+          - generic [ref=e423]: "[READ] →"
+        - 'link "[SRC: TECHCRUNCH AI] Apr 17, 2026 Anthropic launches Claude Design, a new product for creating quick visuals The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily. [READ] →" [ref=e425] [cursor=pointer]':
+          - /url: https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/
+          - generic [ref=e426]:
+            - generic [ref=e427]: "[SRC: TECHCRUNCH AI]"
+            - generic [ref=e428]: Apr 17, 2026
+          - heading "Anthropic launches Claude Design, a new product for creating quick visuals" [level=3] [ref=e429]
+          - paragraph [ref=e430]: The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.
+          - generic [ref=e431]: "[READ] →"
+        - 'link "[SRC: VENTUREBEAT AI] Apr 17, 2026 Anthropic just launched Claude Design, an AI tool that turns prompts into prototypes and challenges Figma Anthropic today launched Claude Design, a new product from its Anthropic Labs division that allows users to create polished visual work — designs, interactive prototypes, slide dec… [READ] →" [ref=e433] [cursor=pointer]':
+          - /url: https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma
+          - generic [ref=e434]:
+            - generic [ref=e435]: "[SRC: VENTUREBEAT AI]"
+            - generic [ref=e436]: Apr 17, 2026
+          - heading "Anthropic just launched Claude Design, an AI tool that turns prompts into prototypes and challenges Figma" [level=3] [ref=e437]
+          - paragraph [ref=e438]: Anthropic today launched Claude Design, a new product from its Anthropic Labs division that allows users to create polished visual work — designs, interactive prototypes, slide dec…
+          - generic [ref=e439]: "[READ] →"
+        - 'link "[SRC: VENTUREBEAT AI] Apr 17, 2026 Should my enterprise AI agent do that? NanoClaw and Vercel launch easier agentic policy setting and approval dialogs across 15 messaging apps For the past year, early adopters of autonomous AI agents have been forced to play a murky game of chance: keep the agent in a useless sandbox or give it the keys to the kingdom an… [READ] →" [ref=e441] [cursor=pointer]':
+          - /url: https://venturebeat.com/orchestration/should-my-enterprise-ai-agent-do-that-nanoclaw-and-vercel-launch-easier-agentic-policy-setting-and-approval-dialogs-across-15-messaging-apps
+          - generic [ref=e442]:
+            - generic [ref=e443]: "[SRC: VENTUREBEAT AI]"
+            - generic [ref=e444]: Apr 17, 2026
+          - heading "Should my enterprise AI agent do that? NanoClaw and Vercel launch easier agentic policy setting and approval dialogs across 15 messaging apps" [level=3] [ref=e445]
+          - paragraph [ref=e446]: "For the past year, early adopters of autonomous AI agents have been forced to play a murky game of chance: keep the agent in a useless sandbox or give it the keys to the kingdom an…"
+          - generic [ref=e447]: "[READ] →"
+        - 'link "[SRC: GOOGLE AI] Apr 17, 2026 7 ways to travel smarter this summer, with help from Google The latest tools from Google can help you plan trips, find a great deal and explore your next destination. [READ] →" [ref=e449] [cursor=pointer]':
+          - /url: https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/
+          - generic [ref=e450]:
+            - generic [ref=e451]: "[SRC: GOOGLE AI]"
+            - generic [ref=e452]: Apr 17, 2026
+          - heading "7 ways to travel smarter this summer, with help from Google" [level=3] [ref=e453]
+          - paragraph [ref=e454]: The latest tools from Google can help you plan trips, find a great deal and explore your next destination.
+          - generic [ref=e455]: "[READ] →"
+    - generic [ref=e457]:
+      - generic [ref=e458]:
+        - generic [ref=e459]: "[08 // CONTACT]"
+        - heading "Let's build something." [level=2] [ref=e460]:
+          - text: Let's build
+          - text: something.
+        - link "raqibmuktadir2@gmail.com" [ref=e461] [cursor=pointer]:
+          - /url: mailto:raqibmuktadir2@gmail.com
+      - generic [ref=e462]:
+        - navigation [ref=e463]:
+          - list [ref=e464]:
+            - listitem [ref=e465]:
+              - link "EMAIL ↗" [ref=e466] [cursor=pointer]:
+                - /url: mailto:raqibmuktadir2@gmail.com
+                - generic [ref=e467]: EMAIL
+                - generic [ref=e468]: ↗
+            - listitem [ref=e469]:
+              - link "LINKEDIN ↗" [ref=e470] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/raqibmuktadir/
+                - generic [ref=e471]: LINKEDIN
+                - generic [ref=e472]: ↗
+            - listitem [ref=e473]:
+              - link "GITHUB ↗" [ref=e474] [cursor=pointer]:
+                - /url: https://github.com/raqibzzz
+                - generic [ref=e475]: GITHUB
+                - generic [ref=e476]: ↗
+            - listitem [ref=e477]:
+              - link "INSTAGRAM ↗" [ref=e478] [cursor=pointer]:
+                - /url: https://www.instagram.com/raqibzzz/
+                - generic [ref=e479]: INSTAGRAM
+                - generic [ref=e480]: ↗
+            - listitem [ref=e481]:
+              - link "555(STUDIOS) ↗" [ref=e482] [cursor=pointer]:
+                - /url: https://www.555-studio.com
+                - generic [ref=e483]: 555(STUDIOS)
+                - generic [ref=e484]: ↗
+            - listitem [ref=e485]:
+              - link "RESUME.PDF ↗" [ref=e486] [cursor=pointer]:
+                - /url: /resume.pdf
+                - generic [ref=e487]: RESUME.PDF
+                - generic [ref=e488]: ↗
+        - generic [ref=e489]:
+          - generic [ref=e490]: © 2026 · RAQIB MUKTADIR
+          - generic [ref=e491]: MONTRÉAL, QC
+  - button "Open Next.js Dev Tools" [ref=e497] [cursor=pointer]:
+    - img [ref=e498]
