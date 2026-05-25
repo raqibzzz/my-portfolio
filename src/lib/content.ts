@@ -85,19 +85,10 @@ export const projects: Project[] = [
     year: "2025",
     stack: ["TypeScript", "Next.js", "OpenAI API", "Zod"],
     summary:
-      "Structured LLM critique engine with modular prompt composition: base template plus injectable strictness (Gentle / Normal / Brutal) and persona slots.",
+      "Reviews product specs, PRDs, and feature descriptions — flags ambiguities, risks, edge cases, and missing acceptance criteria before shipping. Built to think like a skeptical PM + QA reviewer.",
     outcome:
-      "Every model response Zod-validated before rendering — silent failures impossible.",
-  },
-  {
-    slug: "newsflow",
-    name: "NewsFlow",
-    year: "2025",
-    stack: ["Next.js", "TypeScript", "Prisma", "SQLite", "GPT-4o-mini"],
-    summary:
-      "AI news aggregator pulling 20+ RSS sources, deduped through a custom 3-layer pipeline (exact hash → Levenshtein → cosine similarity on word-frequency vectors).",
-    outcome:
-      "Recency + corroboration scoring ranks stories. Isolated GPT-4o-mini assistant queries both article DB and live web without context contamination.",
+      "Modular prompt engine with injectable strictness levels (Gentle / Normal / Brutal). Every response Zod-validated before rendering — silent failures impossible.",
+    href: "https://github.com/raqibzzz/AI-Product-Readiness-Critic",
   },
   {
     slug: "avio2",
@@ -105,37 +96,43 @@ export const projects: Project[] = [
     year: "2025",
     stack: ["Robot Framework", "Playwright", "Python", "Jenkins", "Groovy"],
     summary:
-      "11 end-to-end test scripts covering auth, session management, tab navigation, device control, bitrate cycling, and API-triggered reboot recovery.",
+      "11 end-to-end regression scripts automating Matrox Avio 2 IPKVM WebUI — auth, session management, tab navigation, device control, bitrate cycling, and API-triggered reboot recovery.",
     outcome:
       "Jenkins pipeline with dynamic multi-node agents, 10–12h timeouts, automated HTML email reporting. Zero manual steps from trigger to report.",
+    href: "https://github.com/raqibzzz/Avio2_Automation",
   },
   {
-    slug: "spotify-discovery",
-    name: "Spotify Music Discovery AI",
+    slug: "ai-music-discovery",
+    name: "AI Music Discovery",
     year: "2024",
-    stack: ["Next.js", "TypeScript", "OpenAI API", "Spotify API"],
+    stack: ["Next.js", "TypeScript", "GPT-4o", "Spotify API", "NextAuth"],
     summary:
-      "Natural-language mood → track recommendations. OpenAI parses intent, Spotify API pulls real-time listening context.",
-    outcome: "Chat UI that recommends music that actually fits the vibe you describe.",
+      "Natural-language music discovery integrating GPT-4o with Spotify. Builds a taste profile through conversation and recommends tracks with reasoning.",
+    outcome:
+      "Real-time Spotify playback controls, recently played history, and AI-reasoned recommendations — all driven by natural language.",
+    href: "https://github.com/raqibzzz/ai-music-discovery",
   },
   {
-    slug: "555-sounds",
-    name: "555(SOUNDS)",
+    slug: "car-price-prediction",
+    name: "Car Price Predictor",
     year: "2024",
-    stack: ["TypeScript", "Three.js", "Web Audio API"],
+    stack: ["Python", "scikit-learn", "Next.js", "Random Forest", "Linear Regression"],
     summary:
-      "Real-time VJ-lite performance tool built for live 555 Studio events. Audio-reactive 3D scenes with live cursor control for on-stage performance.",
-    outcome: "Ran live at 555(STUDIOS) Electra — an audio-visual performance format.",
+      "ML regression model predicting Canadian car prices by brand, year, and mileage. Trained on synthetic data with realistic correlations using Linear Regression and Random Forest.",
+    outcome:
+      "Full-stack deployment — Next.js frontend, Python API backend, pickled model artifacts. Interactive web prediction tool.",
+    href: "https://github.com/raqibzzz/car-price-prediction",
   },
   {
     slug: "hdmi-automation",
     name: "HDMI Visual Test Automation",
     year: "2024",
-    stack: ["C#", "FPGA", "Computer Vision"],
+    stack: ["C#", "FPGA", "Computer Vision", "Digilent Nexys"],
     summary:
-      "Drives FPGA-generated HDMI signals, captures frames via webcam, compares against reference patterns to flag regressions.",
+      "Controls a Digilent Nexys Video FPGA board to generate HDMI output, captures frames via webcam, detects test patterns, and counts black-screen frames.",
     outcome:
-      "Precursor architecture to VLM-based visual grading systems — shipped for firmware regression tracking.",
+      "Precursor architecture to VLM-based visual grading — shipped for firmware regression tracking at Matrox.",
+    href: "https://github.com/raqibzzz/HdmiGenWithWebCam",
   },
 ];
 

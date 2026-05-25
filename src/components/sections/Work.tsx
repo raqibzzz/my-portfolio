@@ -9,7 +9,12 @@ export function Work() {
         {projects.map((p, i) => (
           <div key={p.slug} className="min-w-0 overflow-hidden bg-black">
             <Reveal delay={i * 0.05} className="h-full">
-            <article className="group flex h-full flex-col justify-between gap-8 p-8 transition-colors duration-150 hover:bg-[color:var(--color-accent)] hover:text-black md:p-10">
+            <a
+              href={p.href}
+              target="_blank"
+              rel="noreferrer"
+              className="group flex h-full flex-col justify-between gap-8 p-8 transition-colors duration-150 hover:bg-[color:var(--color-accent)] hover:text-black md:p-10"
+            >
               <header className="flex items-start justify-between gap-4">
                 <div className="flex flex-col gap-2">
                   <span className="mono text-[10px] uppercase tracking-[0.25em] text-white/60 group-hover:text-black/70">
@@ -39,7 +44,7 @@ export function Work() {
                   ))}
                 </div>
               </div>
-            </article>
+            </a>
             </Reveal>
           </div>
         ))}
