@@ -134,6 +134,17 @@ export const projects: Project[] = [
       "Precursor architecture to VLM-based visual grading — shipped for firmware regression tracking at Matrox.",
     href: "https://github.com/raqibzzz/HdmiGenWithWebCam",
   },
+  {
+    slug: "newsflow",
+    name: "NewsFlow",
+    year: "2025",
+    stack: ["Next.js", "TypeScript", "GPT-4o-mini", "Prisma", "SQLite"],
+    summary:
+      "AI news aggregator pulling 20+ RSS sources (BBC, Reuters, TechCrunch, The Verge). Custom 3-layer dedup pipeline: exact hash → Levenshtein → cosine similarity on word-frequency vectors.",
+    outcome:
+      "Stories ranked by recency + corroboration score. GPT-4o-mini assistant searches both the article DB and live web — isolated from the aggregator to prevent context contamination.",
+    href: "https://github.com/raqibzzz/News-App",
+  },
 ];
 
 export const experience: ExperienceEntry[] = [
