@@ -80,6 +80,16 @@ export const highlights: HighlightStat[] = [
 
 export const projects: Project[] = [
   {
+    slug: "ai-critic",
+    name: "AI Product Readiness Critic",
+    year: "2025",
+    stack: ["TypeScript", "Next.js", "OpenAI API", "Zod"],
+    summary:
+      "Structured LLM critique engine with modular prompt composition: base template plus injectable strictness (Gentle / Normal / Brutal) and persona slots.",
+    outcome:
+      "Every model response Zod-validated before rendering — silent failures impossible.",
+  },
+  {
     slug: "newsflow",
     name: "NewsFlow",
     year: "2025",
@@ -98,16 +108,6 @@ export const projects: Project[] = [
       "11 end-to-end test scripts covering auth, session management, tab navigation, device control, bitrate cycling, and API-triggered reboot recovery.",
     outcome:
       "Jenkins pipeline with dynamic multi-node agents, 10–12h timeouts, automated HTML email reporting. Zero manual steps from trigger to report.",
-  },
-  {
-    slug: "ai-critic",
-    name: "AI Product Readiness Critic",
-    year: "2025",
-    stack: ["TypeScript", "Next.js", "OpenAI API", "Zod"],
-    summary:
-      "Structured LLM critique engine with modular prompt composition: base template plus injectable strictness (Gentle / Normal / Brutal) and persona slots.",
-    outcome:
-      "Every model response Zod-validated before rendering — silent failures impossible.",
   },
   {
     slug: "spotify-discovery",

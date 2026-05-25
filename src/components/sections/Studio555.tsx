@@ -1,21 +1,13 @@
 import { Reveal } from "@/components/motion/Reveal";
 import { Marquee } from "@/components/motion/Marquee";
-import { FullscreenReveal } from "@/components/motion/FullscreenReveal";
 import { studio555 } from "@/lib/content";
 
 export function Studio555() {
   return (
-    <>
-      <FullscreenReveal
-        src="/555/open-studio.webp"
-        alt="555(STUDIOS) Open Studio Experience — a full room in Montréal."
-        eyebrow="555 · OPEN STUDIO · MONTRÉAL"
-        caption="A room at capacity."
-      />
-      <section
-        id="555"
-        className="relative w-full border-t border-white bg-[color:var(--color-accent)] text-black"
-      >
+    <section
+      id="555"
+      className="relative w-full border-t border-white bg-[color:var(--color-accent)] text-black"
+    >
       <Marquee
         items={[
           "555(STUDIOS)",
@@ -69,7 +61,6 @@ export function Studio555() {
         separator="/"
         className="border-black bg-[color:var(--color-accent)]"
       />
-      </section>
-    </>
+    </section>
   );
 }
