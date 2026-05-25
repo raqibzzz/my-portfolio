@@ -7,7 +7,7 @@ import { Work } from "@/components/sections/Work";
 import { Experience } from "@/components/sections/Experience";
 import { Studio555 } from "@/components/sections/Studio555";
 import { NowPlaying } from "@/components/sections/NowPlaying";
-import { InstagramStrip } from "@/components/sections/InstagramStrip";
+import { PostsTeaser } from "@/components/sections/PostsTeaser";
 import { NewsFeed } from "@/components/sections/NewsFeed";
 import { Footer } from "@/components/sections/Footer";
 
@@ -20,7 +20,7 @@ export default function Home() {
       <Hero />
       <Marquee
         items={[
-          "AI ENGINEER",
+          "AI DEVELOPER",
           "TEST AUTOMATION",
           "FULL-STACK BUILDER",
           "555 STUDIOS",
@@ -33,7 +33,7 @@ export default function Home() {
       <Experience />
       <Studio555 />
       <NowPlaying />
-      <InstagramStrip />
+      <PostsTeaser />
       <Suspense
         fallback={
           <div className="mono hairline mx-auto my-20 max-w-[1600px] px-6 py-20 text-sm uppercase tracking-[0.2em] text-white/50 md:px-10">

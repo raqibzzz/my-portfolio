@@ -22,14 +22,14 @@ const SITE_URL = "https://raqibmuktadir.com";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Raqib Muktadir — AI Engineer · Builder",
+    default: "Raqib Muktadir — AI Developer · Builder",
     template: "%s · Raqib Muktadir",
   },
   description:
-    "AI engineer shipping automation systems, LLM-powered tools, and full-stack applications. Co-founder of 555(STUDIOS), based in Montréal.",
+    "AI developer shipping automation systems, LLM-powered tools, and full-stack applications. Co-founder of 555(STUDIOS), based in Montréal.",
   keywords: [
     "Raqib Muktadir",
-    "AI Engineer",
+    "AI Developer",
     "Test Automation",
     "Full-Stack Developer",
     "555 Studio",
@@ -41,16 +41,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: SITE_URL,
-    title: "Raqib Muktadir — AI Engineer · Builder",
+    title: "Raqib Muktadir — AI Developer · Builder",
     description:
-      "AI engineer shipping automation systems, LLM-powered tools, and full-stack applications. Co-founder of 555(STUDIOS).",
+      "AI developer shipping automation systems, LLM-powered tools, and full-stack applications. Co-founder of 555(STUDIOS).",
     siteName: "Raqib Muktadir",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Raqib Muktadir — AI Engineer · Builder",
-    description: "AI engineer shipping automation systems, LLM tools, and full-stack apps.",
+    title: "Raqib Muktadir — AI Developer · Builder",
+    description: "AI developer shipping automation systems, LLM tools, and full-stack apps.",
     images: ["/og-image.png"],
   },
   robots: { index: true, follow: true },

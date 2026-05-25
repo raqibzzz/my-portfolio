@@ -36,16 +36,9 @@ export interface ExperienceEntry {
   bullets: string[];
 }
 
-export interface GalleryPhoto {
-  src: string;
-  alt: string;
-  postUrl: string;
-  caption?: string;
-}
-
 export const site: SiteMeta = {
   name: "Raqib Muktadir",
-  tagline: "AI Engineer · Test Automation · Full-Stack Builder",
+  tagline: "AI Developer · Test Automation · Full-Stack Builder",
   location: "Montréal, QC",
   email: "raqibmuktadir2@gmail.com",
   phone: "709-697-6714",
@@ -58,7 +51,7 @@ export const site: SiteMeta = {
 };
 
 export const bio: string[] = [
-  "I'm an AI-oriented engineer building automation systems, LLM-powered tools, and full-stack applications that ship to production. At Matrox I spearheaded a test-automation initiative that had been stalled for over two years delivering 80% of the target coverage within two weeks and cutting manual QA cycles by 30%.",
+  "I'm an AI-oriented developer building automation systems, LLM-powered tools, and full-stack applications that ship to production. At Matrox I spearheaded a test-automation initiative that had been stalled for over two years delivering 80% of the target coverage within two weeks and cutting manual QA cycles by 30%.",
   "Outside of day work I ship independent projects - NewsFlow, an AI Product Readiness Critic, a Spotify-integrated music discovery AI, and a Three.js audio-visual tool for live events. I co-founded 555(STUDIOS), a Montréal speaker series that has shipped 10+ events with a 100% fill rate and partners like Shopify, ETS, HEC, and Cansbridge.",
 ];
 
@@ -212,11 +205,6 @@ export const skills = {
   Databases: ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "pgvector", "ChromaDB"],
   "DevOps / CI": ["Jenkins", "GitHub Actions", "Docker", "Git", "PowerShell", "Jira API"],
 } as const;
-
-export const gallery: GalleryPhoto[] = [
-  // Populated by Raqib — drop photos into /public/gallery/ and add entries:
-  // { src: "/gallery/01.jpg", alt: "Caption", postUrl: "https://www.instagram.com/p/..." },
-];
 
 export const newsSources = [
   { id: "openai", label: "OpenAI", feed: "https://openai.com/blog/rss.xml" },

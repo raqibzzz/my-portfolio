@@ -16,9 +16,17 @@ const UA =
 
 function cleanSnippet(raw?: string): string {
   if (!raw) return "";
-  const stripped = raw.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
-  if (stripped.length <= 180) return stripped;
-  return `${stripped.slice(0, 180).trim()}…`;
+  const stripped = raw
+    .replace(/<[^>]*>/g, "")
+    // Strip HN's "Article URL: X Comments URL: Y Points: N # Comments: M" noise
+    .replace(/Article URL:\s*\S+/gi, "")
+    .replace(/Comments URL:\s*\S+/gi, "")
+    .replace(/Points:\s*\d+/gi, "")
+    .replace(/#\s*Comments:\s*\d+/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (stripped.length <= 220) return stripped;
+  return `${stripped.slice(0, 220).trim()}…`;
 }
 
 function hashTitle(t: string): string {

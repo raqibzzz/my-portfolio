@@ -4,7 +4,7 @@ import { bio, highlights } from "@/lib/content";
 
 export function About() {
   return (
-    <Section id="about" label="01 // ABOUT" title="An engineer who ships.">
+    <Section id="about" label="01 // ABOUT" title="A developer who ships.">
       <div className="grid gap-10 md:grid-cols-12">
         <div className="md:col-span-7 flex flex-col gap-6">
           {bio.map((p, i) => (
